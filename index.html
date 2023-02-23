@@ -39,6 +39,12 @@
                   <li class="nav-item">
                     <a class="nav-link disabled">Disabled</a>
                   </li>
+                  <li class="nav-item">
+                    <button type="button"
+                    onclick="document.getElementById('demo').innerHTML = Date()">
+                    Click me to display Date and Time.</button>
+                    <p id="demo"></p>
+                  </li>
                 </ul>
                 <form class="d-flex" role="search">
                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -101,53 +107,52 @@
        <img src="./images/jv.png" alt="LOGO-JV" class="img3" width="250" height="400">
      </div>
         </div>
-        
-        
-        <p>
-            <li>
-                <ol></ol>
-                <ol></ol>
-                <ol></ol>
-            </li>
-        </p>
         <hr>
-
     </header>
     <section>
-        <!-- segundos 3 -->
+        <!-- sesipon javascrip -->
         <hr>
-        <div id="carouselExampleAutoplaying" class="carousel-slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="./images/html.jpg" class="d-block w-10" alt="html imagen">
-              <h2> ¿Qué es .HTML y para qué sirve?</h2>
-          <a href="https://www.w3schools.com/html/default.asp">HTML</a>
-         <p> 
-              <i>
-             ¿Qué es .HTML y para qué sirve?
-             El Lenguaje de Marcado de Hipertexto (HTML) es el código que se utiliza para estructurar y desplegar una página web y sus contenidos. Por ejemplo, sus contenidos podrían ser párrafos, una lista con viñetas, o imágenes y tablas de datos.          
-         </i>
+        <div class="flex-container">
+          <div>
+            <h2>What Can HTML Do?</h2>
 
-         </p>
-            </div>
-            <div class="carousel-item">
-              <img src="./images/css2.jfif" class="d-block w-10" alt="css imagen">
-            </div>
-            <div class="carousel-item">
-              <img src="./images/jv.png" class="d-block w-10" alt="jv imagen">
-            </div>
+            <p id="demos">JavaScript can change HTML content.</>
+    
+            <button type="button" onclick='document.getElementById("demos").innerHTML = "Hello HTML!"'>Click Me!</button>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
+          <div>
+            <h2>What Can CSS Do?</h2>
+
+            <p id="demos2">JavaScript can change HTML content.</>
+    
+            <button type="button" onclick='document.getElementById("demos2").innerHTML = "Hello CSS!"'>Click Me!</button>
+
+          </div>
+          <div>
+            <h2>What Can JavaScript Do?</h2>
+
+            <p id="demos3">JavaScript can change HTML content.</>
+    
+            <button type="button" onclick='document.getElementById("demos3").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+
+          </div>
+        </div>       
         <hr>
         <!-- terceros 3 -->
+        <div class="flex-container">
+          <div>
+            <ul>
+              <li><h2>HTML Forms</h2></li>
+              <li><form action="/action_page.php">
+                <label for="fname">Primer numero</label><br>
+                <input type="number" id="fname" name="fname" value="John"><br>
+                <label for="lname">segundo numero:</label><br>
+                <input type="number" id="lname" name="lname" value="Doe"><br><br>
+                <input type="submit" value="Submit">
+              </form></li>
+            </ul>
+          </div>
+        </div>
 
 
     </section>

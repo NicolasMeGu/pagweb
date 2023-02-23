@@ -19,3 +19,15 @@ function square(number) {
     return number * number;
   }
 square();
+
+function operaciones(){
+  document.write("<br>returns Euler's number",Math.E);
+  document.write("<br>returns PI",Math.PI);
+  document.write("<br>returns the square root of 2 ",Math.SQRT2);
+  document.write("<br>returns the square root of 1/2",Math.SQRT1_2);
+  document.write("<br>returns the natural logarithm of 2",Math.LN2);
+  document.write("<br>returns the natural logarithm of 10",Math.LN10);
+  document.write("<br>returns base 2 logarithm of E",Math.LOG2E);
+  document.write("<br>returns base 10 logarithm of E",Math.LOG10E);
+}
+operaciones();
