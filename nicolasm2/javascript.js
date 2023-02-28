@@ -1,4 +1,4 @@
-window.alert("deseas acceder a la pagina");
+window.alert("BIENVENIDO A MI PRIMERA PAGINA WEB, ACÁ ENCONTRARÁS CON QUE LA PUDE REALIZAR");
 x = 5;
 y = 6;
 let z = x + y;
