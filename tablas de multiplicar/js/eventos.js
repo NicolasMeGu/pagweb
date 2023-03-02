@@ -5,6 +5,14 @@ function holayadios(){
 function myFunction() {
     alert("Regresa!");
 }
+//eventos
+function mouseDown() {
+    document.getElementById("myP").style.color = "red";
+  }
+  
+  function mouseUp() {
+    document.getElementById("myP").style.color = "blue";
+  }
 
 
 var bontonhola = document.getElementById("Hola");

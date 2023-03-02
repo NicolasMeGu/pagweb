@@ -20,6 +20,11 @@ function square(number) {
   }
 square();
 
+function holayadios(){
+  window.alert("hola ")
+  window.alert("adios")
+}
+
 function operaciones(){
   document.write("<br>returns Euler's number",Math.E);
   document.write("<br>returns PI",Math.PI);
@@ -31,3 +36,9 @@ function operaciones(){
   document.write("<br>returns base 10 logarithm of E",Math.LOG10E);
 }
 operaciones();
+
+var bontonhola = document.getElementById("Hola");
+bontonhola.onclick= holayadios;
+
+var blur = document.getElementById("blur");
+blur.onclick= myFunction;
