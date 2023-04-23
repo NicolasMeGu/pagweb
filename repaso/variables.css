@@ -1,0 +1,19 @@
+ul {
+  font-size: 14px;
+  color: rgb(99, 59, 151);
+}
+
+ol {
+  font-size: 18px;
+  color: rgb(150, 25, 120);
+}
+
+p {
+  font-size: 18px;
+  color: rgb(150, 25, 120);
+}
+
+div {
+  font-size: 18px;
+  color: rgb(255, 0, 0);
+}/*# sourceMappingURL=variables.css.map */

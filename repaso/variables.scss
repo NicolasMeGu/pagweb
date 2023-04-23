@@ -1,0 +1,20 @@
+$color: rgb(99, 59, 151);
+$otrocolor: rgb(150, 25, 120);
+$favorite: rgb(255, 0, 0);
+
+ul{
+    font-size: 14px;
+    color: $color;
+}
+ol{
+    font-size: 18px;
+    color:$otrocolor
+}
+p{
+    font-size: 18px;
+    color:$otrocolor
+}
+div{
+    font-size: 18px;
+    color:$favorite
+}
